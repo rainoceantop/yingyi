@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "client/personal/personal",
+    "client/recommend/recommend",
+    "client/common/common",
+    "client/album/album",
+    "client/upload/upload"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "client/recommend/recommend",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "client/common/common",
+        "text": "好友"
+      },
+      {
+        "pagePath": "client/album/album",
+        "text": "相册"
+      },
+      {
+        "pagePath": "client/personal/personal",
+        "text": "个人"
+      }
+    ]
+  }
+}

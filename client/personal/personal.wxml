@@ -1,0 +1,30 @@
+<!-- 个人页 -->
+
+<!-- 背景图 -->
+<view class="personal_bg">
+  <!-- 背景源 -->
+  <image class='bg' src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4273311863,2637110926&fm=27&gp=0.jpg'></image>
+</view>
+<!-- 个人资料 -->
+<view class='personal_info'>
+  <!-- 头像 -->
+  <image class='avatar' src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4273311863,2637110926&fm=27&gp=0.jpg'></image>
+  <text class='name'>{{name}}</text>
+  <text class='signature'>{{signature}}</text>
+  <text class='new' bindtap='newPost'>发表</text>
+</view>
+<!-- 发表动态 -->
+<view class='posts'>
+  <!-- 单个动态 -->
+  <view class='post' wx:for='{{images}}'>
+    <!-- 图片及描述 -->
+    <view class='pic'>
+      <image src='{{item[1]}}'></image>
+      <text class='description'>{{item[4]}}</text>
+    </view>
+    <!-- 日期及信息 -->
+    <view class='info'>
+      <text class='time'>{{item[5]}}</text>
+    </view>
+  </view>
+</view>

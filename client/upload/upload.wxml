@@ -1,0 +1,9 @@
+<view wx:for='{{tempFilePaths}}'>
+  <view class='upload_item'>
+    <image class='upload_img' src='{{item}}' data-img_i='{{index}}'></image>
+    <textarea placeholder='图片描述' class='upload_description' maxlength='50' bindinput='uploadAreaInput' data-input_i="{{index}}"></textarea>
+  </view>
+</view>
+<button bindtap='postUpload'>提交</button>
+
+<view>{{result}}</view>

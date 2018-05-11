@@ -1,0 +1,78 @@
+/* client/personal/personal.wxss */
+.personal_bg{
+  width: 100%;
+  height: 400rpx;
+  background: #452;
+}
+.personal_bg>.bg{
+  width: 100%;
+  height: 400rpx;
+  max-height: 400rpx;
+}
+.personal_info{
+  width: 100%;
+  height: 150rpx;
+  position: absolute;
+  top: 325rpx;
+}
+.personal_info>.avatar{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+  margin-left: 20rpx;
+}
+.personal_info>.name{
+  position: absolute;
+  top: 20rpx;
+  left: 190rpx;
+  font-weight: bold;
+  color: white;
+}
+.personal_info>.signature{
+  position: absolute;
+  top: 85rpx;
+  left: 190rpx;
+  color: #999999;
+  font-size: 28rpx;
+}
+.personal_info>.new{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  background: lightblue;
+  border-radius: 25rpx;
+  padding: 5rpx 15rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.posts{
+  width: 100%;
+  margin-top: 150rpx;
+}
+.posts>.post{
+  padding: 0 50rpx;
+  height: 500rpx;
+  margin-bottom: 50rpx;
+}
+.posts>.post>.pic{
+  width: 100%;
+  height: 400rpx;
+}
+.posts>.post>.pic>image{
+  width: 100%;
+  max-height: 400rpx; 
+}
+.posts>.post>.pic>.description{
+  position: relative;
+  top: -150rpx;
+  font-size: 25rpx;
+  color: lightgray;
+}
+.posts>.post>.info{
+  width: 100%;
+  height: 100rpx;
+}
+.posts>.post>.info>.time{
+  color: lightslategray;
+  font-size: 28rpx;
+}
